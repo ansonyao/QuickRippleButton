@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011634CAB379B224670081CA98AC26C3 /* QuickRippleButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 600A60D85702F19D35DCA76DB42F6847 /* QuickRippleButton-dummy.m */; };
+		20702F0EBEEA9E99D2DFD9FE99D8B6C7 /* QuickRippleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0FBA806D63E41105DADBD643E95C6B /* QuickRippleButton.swift */; };
+		32A0D510065311B371E545FD7F3F1D9D /* Pods-QuickRippleButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0474AB1F1B70CB1B9FD6282C3C6C259 /* Pods-QuickRippleButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4075CEC71DAE7DA9BA40356D0DCB616A /* Pods-QuickRippleButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9175DB15ADC70DA9AC2E6C2F4A2BBEAD /* Pods-QuickRippleButton_Example-dummy.m */; };
+		494437F1882D619AC911B5DE467BE417 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		64BBFD243CB7DB1EB6BFFDFAADAF5F5A /* Pods-QuickRippleButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D6026DEEF7D90BCEDE70DC34849FDA8 /* Pods-QuickRippleButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FFF415B2DB2FC7D75855C61C7C86458 /* Pods-QuickRippleButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F27DC3B057433B149705ED810278A27 /* Pods-QuickRippleButton_Tests-dummy.m */; };
+		C0049EEC9796788A0831FB02B8A5E176 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		DA86CC63E4AAA917A05520CAD57F9E7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F9516F75E2FE85A4DC069CB6570A4D14 /* QuickRippleButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 689E65CCF0BF1A48A88FC1C7A5ED1734 /* QuickRippleButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95DA760E8C60191C826C0B90D7E3674E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47BAEA9A64171E19E285C629AC3636F3;
+			remoteInfo = QuickRippleButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		036A175D877D58716E7A67D558ADCE65 /* Pods-QuickRippleButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuickRippleButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		09DE78CB016EC4A11C35AD8E15F1D905 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20CD2E67C131DD62E9860FEC65CFE177 /* Pods-QuickRippleButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuickRippleButton_Example-resources.sh"; sourceTree = "<group>"; };
+		2B0319D954BAA8962B4DEEBBEABDCECC /* Pods-QuickRippleButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuickRippleButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2D68B86451A9C69A3C4935292F0F91E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36ED8349C8C35847922472BEE2FDB3B8 /* Pods-QuickRippleButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuickRippleButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3D6026DEEF7D90BCEDE70DC34849FDA8 /* Pods-QuickRippleButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuickRippleButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5207A8414C24ACD4629A6108DC730132 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53BFE6980F855EACAA063423B8A0A3AF /* Pods-QuickRippleButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QuickRippleButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		547DD68107CC09FB73E0D0974B93B533 /* QuickRippleButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuickRippleButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		594EE184D0A9D2D7F79254E92B2292BB /* Pods-QuickRippleButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuickRippleButton_Tests-resources.sh"; sourceTree = "<group>"; };
+		5CE0CE879B10A1C1EA44563D028547C3 /* QuickRippleButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QuickRippleButton.xcconfig; sourceTree = "<group>"; };
+		600A60D85702F19D35DCA76DB42F6847 /* QuickRippleButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QuickRippleButton-dummy.m"; sourceTree = "<group>"; };
+		685119A280354B16114E9A35E8B9673F /* Pods-QuickRippleButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QuickRippleButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		689E65CCF0BF1A48A88FC1C7A5ED1734 /* QuickRippleButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QuickRippleButton-umbrella.h"; sourceTree = "<group>"; };
+		7D959F345F82C024054C5648F01B0139 /* Pods-QuickRippleButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuickRippleButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7EA15078DF29164230C2EB8BCC1F60A3 /* Pods-QuickRippleButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuickRippleButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F27DC3B057433B149705ED810278A27 /* Pods-QuickRippleButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuickRippleButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		85529682A93CA815359C6696331EF731 /* Pods-QuickRippleButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QuickRippleButton_Tests.modulemap"; sourceTree = "<group>"; };
+		8C0FBA806D63E41105DADBD643E95C6B /* QuickRippleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = QuickRippleButton.swift; sourceTree = "<group>"; };
+		8CBAB3068888F802467983349CC83415 /* Pods-QuickRippleButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuickRippleButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		90313842D0DD72279832680ECD0B563B /* Pods-QuickRippleButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuickRippleButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9175DB15ADC70DA9AC2E6C2F4A2BBEAD /* Pods-QuickRippleButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuickRippleButton_Example-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		958C24F11C914D9483124D41681CE55E /* Pods_QuickRippleButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickRippleButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50285878E855976B0148D6BE20E2304 /* QuickRippleButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = QuickRippleButton.modulemap; sourceTree = "<group>"; };
+		C3A9D884B155B0EF11B82F06338E8799 /* Pods-QuickRippleButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuickRippleButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C423C7F08568D75DBA3B3166D896A3F7 /* QuickRippleButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QuickRippleButton-prefix.pch"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D94941D5F835C5F08D1C540F7DA92F3C /* Pods-QuickRippleButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QuickRippleButton_Example.modulemap"; sourceTree = "<group>"; };
+		F0474AB1F1B70CB1B9FD6282C3C6C259 /* Pods-QuickRippleButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuickRippleButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		FF53AC6ABC59E77ADF0041C840F6FEEA /* Pods_QuickRippleButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickRippleButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62986F5AA6FA7A99B5F26E033561B845 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA86CC63E4AAA917A05520CAD57F9E7E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D19D4ED50B9F75E769115307BCB32C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494437F1882D619AC911B5DE467BE417 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1ADC6A0F98E63A3573CB49921D33C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0049EEC9796788A0831FB02B8A5E176 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07F53E9837398ADC53FC3D092356FF53 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8C0FBA806D63E41105DADBD643E95C6B /* QuickRippleButton.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4563BD8F7EB159CBDC7FD2AE1C9B4CB6 /* Pods-QuickRippleButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2D68B86451A9C69A3C4935292F0F91E4 /* Info.plist */,
+				85529682A93CA815359C6696331EF731 /* Pods-QuickRippleButton_Tests.modulemap */,
+				53BFE6980F855EACAA063423B8A0A3AF /* Pods-QuickRippleButton_Tests-acknowledgements.markdown */,
+				90313842D0DD72279832680ECD0B563B /* Pods-QuickRippleButton_Tests-acknowledgements.plist */,
+				7F27DC3B057433B149705ED810278A27 /* Pods-QuickRippleButton_Tests-dummy.m */,
+				8CBAB3068888F802467983349CC83415 /* Pods-QuickRippleButton_Tests-frameworks.sh */,
+				594EE184D0A9D2D7F79254E92B2292BB /* Pods-QuickRippleButton_Tests-resources.sh */,
+				3D6026DEEF7D90BCEDE70DC34849FDA8 /* Pods-QuickRippleButton_Tests-umbrella.h */,
+				7EA15078DF29164230C2EB8BCC1F60A3 /* Pods-QuickRippleButton_Tests.debug.xcconfig */,
+				036A175D877D58716E7A67D558ADCE65 /* Pods-QuickRippleButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-QuickRippleButton_Tests";
+			path = "Target Support Files/Pods-QuickRippleButton_Tests";
+			sourceTree = "<group>";
+		};
+		5889441196A78C4EFBDC80ECD61405AD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				09DE78CB016EC4A11C35AD8E15F1D905 /* Info.plist */,
+				B50285878E855976B0148D6BE20E2304 /* QuickRippleButton.modulemap */,
+				5CE0CE879B10A1C1EA44563D028547C3 /* QuickRippleButton.xcconfig */,
+				600A60D85702F19D35DCA76DB42F6847 /* QuickRippleButton-dummy.m */,
+				C423C7F08568D75DBA3B3166D896A3F7 /* QuickRippleButton-prefix.pch */,
+				689E65CCF0BF1A48A88FC1C7A5ED1734 /* QuickRippleButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QuickRippleButton";
+			sourceTree = "<group>";
+		};
+		632618E84DDB47DA6A7767968F6E28F0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2E1143B3DF4CBA4C8F157FB1BE153A7 /* QuickRippleButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6B4F37FC74F19D361DFDAE217CBAF68D /* QuickRippleButton */ = {
+			isa = PBXGroup;
+			children = (
+				07F53E9837398ADC53FC3D092356FF53 /* Classes */,
+			);
+			path = QuickRippleButton;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				632618E84DDB47DA6A7767968F6E28F0 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FDFFBDBAB59A571A7C147C84F2E03ED8 /* Products */,
+				B4B82E96D7235A862D01EECC07818562 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B4B82E96D7235A862D01EECC07818562 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F113F5B78B742F67F21C45395C3BC9B7 /* Pods-QuickRippleButton_Example */,
+				4563BD8F7EB159CBDC7FD2AE1C9B4CB6 /* Pods-QuickRippleButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2E1143B3DF4CBA4C8F157FB1BE153A7 /* QuickRippleButton */ = {
+			isa = PBXGroup;
+			children = (
+				6B4F37FC74F19D361DFDAE217CBAF68D /* QuickRippleButton */,
+				5889441196A78C4EFBDC80ECD61405AD /* Support Files */,
+			);
+			name = QuickRippleButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F113F5B78B742F67F21C45395C3BC9B7 /* Pods-QuickRippleButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5207A8414C24ACD4629A6108DC730132 /* Info.plist */,
+				D94941D5F835C5F08D1C540F7DA92F3C /* Pods-QuickRippleButton_Example.modulemap */,
+				685119A280354B16114E9A35E8B9673F /* Pods-QuickRippleButton_Example-acknowledgements.markdown */,
+				C3A9D884B155B0EF11B82F06338E8799 /* Pods-QuickRippleButton_Example-acknowledgements.plist */,
+				9175DB15ADC70DA9AC2E6C2F4A2BBEAD /* Pods-QuickRippleButton_Example-dummy.m */,
+				2B0319D954BAA8962B4DEEBBEABDCECC /* Pods-QuickRippleButton_Example-frameworks.sh */,
+				20CD2E67C131DD62E9860FEC65CFE177 /* Pods-QuickRippleButton_Example-resources.sh */,
+				F0474AB1F1B70CB1B9FD6282C3C6C259 /* Pods-QuickRippleButton_Example-umbrella.h */,
+				7D959F345F82C024054C5648F01B0139 /* Pods-QuickRippleButton_Example.debug.xcconfig */,
+				36ED8349C8C35847922472BEE2FDB3B8 /* Pods-QuickRippleButton_Example.release.xcconfig */,
+			);
+			name = "Pods-QuickRippleButton_Example";
+			path = "Target Support Files/Pods-QuickRippleButton_Example";
+			sourceTree = "<group>";
+		};
+		FDFFBDBAB59A571A7C147C84F2E03ED8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF53AC6ABC59E77ADF0041C840F6FEEA /* Pods_QuickRippleButton_Example.framework */,
+				958C24F11C914D9483124D41681CE55E /* Pods_QuickRippleButton_Tests.framework */,
+				547DD68107CC09FB73E0D0974B93B533 /* QuickRippleButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B056C6A5616B6AA7E255F147E525C3BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BBFD243CB7DB1EB6BFFDFAADAF5F5A /* Pods-QuickRippleButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C06377778F17AD8790592A9742F3BE01 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9516F75E2FE85A4DC069CB6570A4D14 /* QuickRippleButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D84F9184DE685FFA6D3B26E55A64CB60 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A0D510065311B371E545FD7F3F1D9D /* Pods-QuickRippleButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04FFCC39DBA73FFEF61B1D45ECCCA006 /* Pods-QuickRippleButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D8562F1F5EAB00ACB772D3BD0C33ED6 /* Build configuration list for PBXNativeTarget "Pods-QuickRippleButton_Example" */;
+			buildPhases = (
+				905BD35F940579B801299881045FA032 /* Sources */,
+				8D19D4ED50B9F75E769115307BCB32C3 /* Frameworks */,
+				D84F9184DE685FFA6D3B26E55A64CB60 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F98A5524BC631CE73ED883DB0B35EB8 /* PBXTargetDependency */,
+			);
+			name = "Pods-QuickRippleButton_Example";
+			productName = "Pods-QuickRippleButton_Example";
+			productReference = FF53AC6ABC59E77ADF0041C840F6FEEA /* Pods_QuickRippleButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		47BAEA9A64171E19E285C629AC3636F3 /* QuickRippleButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA8F9B51A5AD38E87CCF8A664EECEEA0 /* Build configuration list for PBXNativeTarget "QuickRippleButton" */;
+			buildPhases = (
+				6951719877505A4FEFEBFB244ADAE1B1 /* Sources */,
+				A1ADC6A0F98E63A3573CB49921D33C1B /* Frameworks */,
+				C06377778F17AD8790592A9742F3BE01 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickRippleButton;
+			productName = QuickRippleButton;
+			productReference = 547DD68107CC09FB73E0D0974B93B533 /* QuickRippleButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4FDAB176D08336DB4CC4B30DDC49C515 /* Pods-QuickRippleButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45399E8DE3F9CE273C37A489DCBA3858 /* Build configuration list for PBXNativeTarget "Pods-QuickRippleButton_Tests" */;
+			buildPhases = (
+				9DE5302516F83F0E43ABE5D05EA417BE /* Sources */,
+				62986F5AA6FA7A99B5F26E033561B845 /* Frameworks */,
+				B056C6A5616B6AA7E255F147E525C3BA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-QuickRippleButton_Tests";
+			productName = "Pods-QuickRippleButton_Tests";
+			productReference = 958C24F11C914D9483124D41681CE55E /* Pods_QuickRippleButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FDFFBDBAB59A571A7C147C84F2E03ED8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04FFCC39DBA73FFEF61B1D45ECCCA006 /* Pods-QuickRippleButton_Example */,
+				4FDAB176D08336DB4CC4B30DDC49C515 /* Pods-QuickRippleButton_Tests */,
+				47BAEA9A64171E19E285C629AC3636F3 /* QuickRippleButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6951719877505A4FEFEBFB244ADAE1B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011634CAB379B224670081CA98AC26C3 /* QuickRippleButton-dummy.m in Sources */,
+				20702F0EBEEA9E99D2DFD9FE99D8B6C7 /* QuickRippleButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905BD35F940579B801299881045FA032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4075CEC71DAE7DA9BA40356D0DCB616A /* Pods-QuickRippleButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DE5302516F83F0E43ABE5D05EA417BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FFF415B2DB2FC7D75855C61C7C86458 /* Pods-QuickRippleButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F98A5524BC631CE73ED883DB0B35EB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QuickRippleButton;
+			target = 47BAEA9A64171E19E285C629AC3636F3 /* QuickRippleButton */;
+			targetProxy = 95DA760E8C60191C826C0B90D7E3674E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2198CC3604766581FAE45F2E20C4E464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36ED8349C8C35847922472BEE2FDB3B8 /* Pods-QuickRippleButton_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QuickRippleButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuickRippleButton_Example/Pods-QuickRippleButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QuickRippleButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		272386CCB95CE003D227509730A9E9BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CE0CE879B10A1C1EA44563D028547C3 /* QuickRippleButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/QuickRippleButton/QuickRippleButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QuickRippleButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QuickRippleButton/QuickRippleButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = QuickRippleButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		34CADF3AF857045924A39C73B4098982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CE0CE879B10A1C1EA44563D028547C3 /* QuickRippleButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/QuickRippleButton/QuickRippleButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QuickRippleButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QuickRippleButton/QuickRippleButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = QuickRippleButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		55160E17AF9F3672BA73FA5041F699CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EA15078DF29164230C2EB8BCC1F60A3 /* Pods-QuickRippleButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QuickRippleButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuickRippleButton_Tests/Pods-QuickRippleButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QuickRippleButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A4E7163879C05D29C4C8094C8A550164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 036A175D877D58716E7A67D558ADCE65 /* Pods-QuickRippleButton_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QuickRippleButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuickRippleButton_Tests/Pods-QuickRippleButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QuickRippleButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA54AF3C5D17BCB7165E718C8E56D9F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D959F345F82C024054C5648F01B0139 /* Pods-QuickRippleButton_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QuickRippleButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QuickRippleButton_Example/Pods-QuickRippleButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QuickRippleButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45399E8DE3F9CE273C37A489DCBA3858 /* Build configuration list for PBXNativeTarget "Pods-QuickRippleButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55160E17AF9F3672BA73FA5041F699CD /* Debug */,
+				A4E7163879C05D29C4C8094C8A550164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D8562F1F5EAB00ACB772D3BD0C33ED6 /* Build configuration list for PBXNativeTarget "Pods-QuickRippleButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA54AF3C5D17BCB7165E718C8E56D9F9 /* Debug */,
+				2198CC3604766581FAE45F2E20C4E464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA8F9B51A5AD38E87CCF8A664EECEEA0 /* Build configuration list for PBXNativeTarget "QuickRippleButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34CADF3AF857045924A39C73B4098982 /* Debug */,
+				272386CCB95CE003D227509730A9E9BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

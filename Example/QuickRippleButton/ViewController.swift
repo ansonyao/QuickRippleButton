@@ -7,17 +7,15 @@
 //
 
 import UIKit
+import QuickRippleButton
 
 class ViewController: UIViewController {
+    @IBOutlet weak var sampleButton: QuickRippleButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        view.backgroundColor = UIColor.red
+        sampleButton.tintColor = UIColor.blue
     }
 
 }

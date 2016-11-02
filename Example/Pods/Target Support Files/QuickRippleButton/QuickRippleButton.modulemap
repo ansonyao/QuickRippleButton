@@ -1,0 +1,6 @@
+framework module QuickRippleButton {
+  umbrella header "QuickRippleButton-umbrella.h"
+
+  export *
+  module * { export * }
+}
