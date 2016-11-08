@@ -7,7 +7,7 @@
 
 ## Example
 
-![demo](https://raw.github.com/wiki/pixel-ink/PIRipple/demo.gif)
+![demo](./rippleButtonExample.gif)
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
@@ -24,11 +24,9 @@ pod "QuickRippleButton"
 
 ## Usage
 
-Let button = QuickRippleButton() or use the interface builder (The QuickRippleButton is IBDesignable and have IBInspectable properties)
+Let button = QuickRippleButton() 
+or use the interface builder (It is IBDesignable and has IBInspectable properties)
 
-```ruby
-pod "QuickRippleButton"
-```
 
 ## Author
 
