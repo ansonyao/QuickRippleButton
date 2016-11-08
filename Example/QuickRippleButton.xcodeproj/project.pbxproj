@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 5BNC8N825B;
 						LastSwiftMigration = 0800;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 5BNC8N825B;
 						LastSwiftMigration = 0800;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -491,6 +493,7 @@
 			baseConfigurationReference = 3B7C65D9F315E4C399DDC266 /* Pods-QuickRippleButton_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5BNC8N825B;
 				INFOPLIST_FILE = QuickRippleButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -505,6 +508,7 @@
 			baseConfigurationReference = 921D634DA5BAFBA176DF4324 /* Pods-QuickRippleButton_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5BNC8N825B;
 				INFOPLIST_FILE = QuickRippleButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -518,6 +522,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3CD340DF43D16B712E5091B4 /* Pods-QuickRippleButton_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 5BNC8N825B;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -538,6 +543,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EC341F29A35C0F41815A2D39 /* Pods-QuickRippleButton_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 5BNC8N825B;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
