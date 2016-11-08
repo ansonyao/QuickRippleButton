@@ -1,6 +1,0 @@
-framework module Pods_QuickRippleButton_Tests {
-  umbrella header "Pods-QuickRippleButton_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
