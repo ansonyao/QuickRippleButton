@@ -11,7 +11,9 @@ env:
     - DESTINATION="OS=10.0,name=iPhone 7 Plus"     SCHEME="$IOS_FRAMEWORK_SCHEME"     SDK="$IOS_SDK"     RUN_TESTS="YES" BUILD_EXAMPLE="YES" POD_LINT="YES"
 before_install:
   - gem install cocoapods --pre --no-rdoc --no-ri --no-document --quiet
+  cd ./Example
   - pod install
+  cd ..
 script:
   - set -o pipefail
   - xcodebuild -version
