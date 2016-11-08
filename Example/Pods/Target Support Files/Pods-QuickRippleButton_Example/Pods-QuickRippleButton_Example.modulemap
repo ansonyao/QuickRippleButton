@@ -1,0 +1,6 @@
+framework module Pods_QuickRippleButton_Example {
+  umbrella header "Pods-QuickRippleButton_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
