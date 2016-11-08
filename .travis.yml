@@ -10,5 +10,5 @@ language: swift
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
 script:
-- set -o pipefail && xcodebuild test -workspace Example/QuickRippleButton.xcworkspace -scheme QuickRippleButton-Example -sdk iphonesimulator10.0 ONLY_ACTIVE_ARCH=NO | xcpretty
+- set -o pipefail && xcodebuild test -workspace Example/QuickRippleButton.xcworkspace -scheme QuickRippleButton-Example -sdk iphoneos10.0 ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint
