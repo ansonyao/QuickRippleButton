@@ -1,6 +1,6 @@
 # QuickRippleButton
 
-[![CI Status](http://img.shields.io/travis/Anson Yao/QuickRippleButton.svg?style=flat)](https://travis-ci.org/AnsonYao/QuickRippleButton)
+[![CI Status](http://img.shields.io/travis/Anson Yao/QuickRippleButton.svg?style=flat)](https://travis-ci.org/ansonyao/QuickRippleButton)
 [![Version](https://img.shields.io/cocoapods/v/QuickRippleButton.svg?style=flat)](http://cocoapods.org/pods/QuickRippleButton)
 [![License](https://img.shields.io/cocoapods/l/QuickRippleButton.svg?style=flat)](http://cocoapods.org/pods/QuickRippleButton)
 [![Platform](https://img.shields.io/cocoapods/p/QuickRippleButton.svg?style=flat)](http://cocoapods.org/pods/QuickRippleButton)
