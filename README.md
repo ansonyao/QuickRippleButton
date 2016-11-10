@@ -25,7 +25,7 @@ pod "QuickRippleButton"
 ## Usage
 
 Let button = QuickRippleButton() 
-or use the interface builder (It is IBDesignable and has IBInspectable properties)
+or use the Interface Builder
 
 
 ## Author
