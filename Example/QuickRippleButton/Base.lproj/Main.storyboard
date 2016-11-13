@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="2Ye-HH-yWJ">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
@@ -18,26 +18,54 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ufx-MB-udM">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w0j-hg-dUb" customClass="QuickRippleButton" customModule="QuickRippleButton">
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="Niu-Hs-NzJ"/>
-                                    <constraint firstAttribute="height" constant="100" id="a1W-iw-3Xx"/>
+                                    <constraint firstAttribute="width" constant="50" id="Niu-Hs-NzJ"/>
+                                    <constraint firstAttribute="height" constant="50" id="a1W-iw-3Xx"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="ic_add_circle"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="w0j-hg-dUb" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="k97-Pg-zaT"/>
-                            <constraint firstItem="w0j-hg-dUb" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="otI-so-uXq"/>
+                            <constraint firstItem="ufx-MB-udM" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="3Pd-4j-ko6"/>
+                            <constraint firstAttribute="trailing" secondItem="ufx-MB-udM" secondAttribute="trailing" id="CPp-fm-mNc"/>
+                            <constraint firstItem="ufx-MB-udM" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="Z9S-rv-kiK"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="ufx-MB-udM" secondAttribute="bottom" id="eOz-8V-pRa"/>
+                            <constraint firstAttribute="trailing" secondItem="w0j-hg-dUb" secondAttribute="trailing" constant="30" id="h9c-LE-mAm"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="w0j-hg-dUb" secondAttribute="bottom" constant="30" id="tQx-oI-5Cq"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="2Mw-D3-un9"/>
                     <connections>
                         <outlet property="sampleButton" destination="w0j-hg-dUb" id="Tky-ct-NHj"/>
+                        <outlet property="tableView" destination="ufx-MB-udM" id="7Vl-1j-1lv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1028" y="688.60569715142435"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Op1-yp-kuB">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2Ye-HH-yWJ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="FnP-Ff-a9c">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="AsD-Fc-byR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MFH-gg-VFW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="45.600000000000001" y="688.60569715142435"/>
         </scene>
     </scenes>
     <resources>

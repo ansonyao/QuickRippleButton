@@ -14,6 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		7A805A427054C7028B29EFF5 /* Pods_QuickRippleButton_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F5B15F32BCFA9E3E81B0567 /* Pods_QuickRippleButton_Tests.framework */; };
+		7EC6007F1DD81597000D4ECD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC6007E1DD81597000D4ECD /* Constants.swift */; };
 		D004EA4C9C7281EE7C2A0A79 /* Pods_QuickRippleButton_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 095452818F0A150069A1779E /* Pods_QuickRippleButton_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		693B191DB4DD5116207A19D0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6F5B15F32BCFA9E3E81B0567 /* Pods_QuickRippleButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickRippleButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC6007E1DD81597000D4ECD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		921D634DA5BAFBA176DF4324 /* Pods-QuickRippleButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickRippleButton_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickRippleButton_Example/Pods-QuickRippleButton_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C229FE74B2D5ACB89D5A2CD6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D51D6A5DA8C8F88E56A9A618 /* QuickRippleButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QuickRippleButton.podspec; path = ../QuickRippleButton.podspec; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				7EC6007E1DD81597000D4ECD /* Constants.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -365,6 +368,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				7EC6007F1DD81597000D4ECD /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
