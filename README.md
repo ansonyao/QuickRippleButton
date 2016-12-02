@@ -7,7 +7,7 @@
 
 ## Example
 
-![demo](./rippleButtonExample.gif)
+![demo](./demo.gif)
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
@@ -34,4 +34,4 @@ Anson Yao, yaoenxin@gmail.com
 
 ## License
 
-QuickRippleButton is available under the MIT license. See the LICENSE file for more info.
+QuickRippleButton is available under the Apache 2.0 license. See the LICENSE file for more info.
